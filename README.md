@@ -20,4 +20,4 @@ Based on all the models I would recommend that the most important value to optim
 *The simple tree without any kind of boosting or bagging is the only one that starts with a low gini value (less than 0.1). The other two models actually have first node gini of 0.5
 * The balanced subsample version of the classifier (tree_cbrf) has several leaves at 3rd level. These are mainly associated with InsessionView, MaxPrice classes.
 
-!['tree.png'](tree.png)
+!['tree.png'](https://github.com/taimur1871/inventory_boosted_trees/blob/main/optimized_tree_brf.png)
