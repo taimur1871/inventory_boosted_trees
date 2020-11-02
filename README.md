@@ -1,9 +1,10 @@
-# Inventory Boosted Trees
+# Inventory Prediction Using Decision Trees
 
 Using customer shopping data to determine shopping trends. The data is highly imbalanced so an implementation of Boosted Trees was used to optimize random forest classification system.
 
 Observations:
-The difference between various types of trees is as follows
+The difference between various types of trees is as follows,
+* The RF tree has low recall.
 * As expected the Bagging model uses subsamples so it has only 11333 samples.
 * In terms of importance of features the trees show that the first main feature of importance are NumViews. The bagged model uses interaction time as an important variable
 * The importance of second level features varies according to models.
